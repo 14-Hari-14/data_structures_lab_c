@@ -1,4 +1,5 @@
 #include<stdio.h>
+//finding the kth smallest element in the array: technique used is selection sort
 void main()
 {
 	//creating the array
