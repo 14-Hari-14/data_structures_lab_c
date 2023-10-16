@@ -2,6 +2,7 @@
 #include<stdio.h>
 void main()
 {
+	// initializing variables
 	int i, n, low=0, mid=0, high=0, temp=0;
 	printf("Enter the length of the array: ");
 	scanf("%d", &n);
@@ -12,8 +13,11 @@ void main()
 		printf("\nEnter the element: ");
 		scanf("%d", &arr[i]);
 	}
+	// initializing the pointer values 
 	low, mid=0;
 	high=n-1;
+
+	// checking if mid pointer is smaller than high to sort 2 and 1
 	while(mid<=high)
 	{
 		if(arr[mid]==0)
