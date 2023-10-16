@@ -2,6 +2,7 @@
 #include<stdio.h>
 void main()
 {	
+	// initializing the variables
 	int i, n, j, temp=0;
 	printf("Enter the length of the array: ");
 	scanf("%d", &n);
