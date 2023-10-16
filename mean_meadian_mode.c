@@ -2,9 +2,11 @@
 #include<stdio.h>
 void main()
 {
+	// initializing variables
 	int i, n, j, temp, count, maxCount=0, mode=0, mode2=0, case2=0;
 	float mean=0, median=0;
-	
+
+	// initializing array and adding elements to it
 	printf("Enter the length of the array: ");
 	scanf("%d", &n);
 	
